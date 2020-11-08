@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4832814759426513312
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4832814759426513311}
+  - component: {fileID: 114422682334036126}
+  - component: {fileID: 4832814759426513310}
+  - component: {fileID: 8350043551752815011}
+  m_Layer: 0
+  m_Name: Pool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4832814759426513311
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4832814759426513312}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.175, y: 0.98, z: 0.375}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114422682334036126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4832814759426513312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5a91fbd8fbe4c48a1d2e8f0fef0004, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventGameStart:
+    m_PersistentCalls:
+      m_Calls: []
+  EventplayerDeath:
+    m_PersistentCalls:
+      m_Calls: []
+  EventRetryBtn:
+    m_PersistentCalls:
+      m_Calls: []
+  EventplayerWin:
+    m_PersistentCalls:
+      m_Calls: []
+  EventHomeBtn:
+    m_PersistentCalls:
+      m_Calls: []
+  EventPickBullet:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &4832814759426513310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4832814759426513312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f4c1b4a3f3324543a7b83935bd5972d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boom: {fileID: 3981607088714948013, guid: 8b780f56c9c072b4584420b397dde482, type: 3}
+  sett: {fileID: 3653443004922280821, guid: 5ebf07dc0a22a9b4db8d35fbb39a67e7, type: 3}
+  roket: {fileID: 2949383412113392573, guid: 06f91b530eb396e4ea0dea2571914df6, type: 3}
+  nowType: 0
+--- !u!114 &8350043551752815011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4832814759426513312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d708b1ed839534aa1b2fc64dee2e00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
